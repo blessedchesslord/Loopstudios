@@ -689,7 +689,7 @@ h6{
         align-items: center;
         justify-content: center;
         background: none;
-        gap: 220px;
+        gap: 150px;
     }
 
     .mobile-top .loop{
@@ -724,7 +724,7 @@ h6{
     }
 
     .mobile-main img{
-        width: 360px;
+        width: 300px;
         height: auto;
     }
 
@@ -783,7 +783,7 @@ h6{
     }
 
     .mobile-images img{
-        width: 360px;
+        width: 300px;
         height: auto;
     }
 
