@@ -658,7 +658,7 @@ h6{
     }
 }
 
-@media screen and (width: 360px){
+@media screen and (width: 340px){
     .desktop{
         display: none;
     }
