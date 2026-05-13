@@ -1620,7 +1620,7 @@ h6{
     }
 
     .mobile-section button:active{
-        background-color: green;
+        background-color: black;
         color: white;
     }
 
