@@ -274,584 +274,799 @@ h6{
     display: none;
 }
 
-@media screen and (width: 320px){
+@media screen and (max-width:1440px){
     .desktop{
-        display: none;
-    }
-
-    .mobile{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        gap: 90px;
-    }
-
-    .mobile-header{
-        background-image: url(/images/mobile-images/image-hero.jpg);
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        padding-top: 40px;
-        width: 100%;
-        height: 100vh;
-        gap: 150px;
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-
-    .mobile-top{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        background: none;
-        gap: 130px;
-    }
-
-    .mobile-top .loop{
-        width: 150px;
-    }
-
-    .mobile-top img{
-        background: none;
-    }
-
-    .mobile-header{
-        font-family: "Josefin Sans", sans-serif;
-        font-weight: 100;
-    }
-
-    .mobile-header p{
-        text-align: left;
-        background: none;
-        color: white;
-        font-size: 35px;
-        padding: 25px;
-        border: 2px solid white;
-    }
-
-    .mobile-main{
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: column;
         width: 100%;
-        gap: 35px;
+        gap: 100px;
+        height: fit-content;
     }
 
-    .mobile-main img{
-        width: 280px;
-        height: auto;
-    }
-
-    .mobile-writing{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        text-align: center;
-        width: 280px;
-        padding-left: 15px;
-        padding-right: 15px;
-        gap: 20px;
-        font-family: "Josefin Sans", sans-serif;
-    }
-
-    .mobile-writing h1{
-        color: rgb(78, 78, 78);
-        font-size: 30px;
-        font-style: normal;
-        font-weight: 100;
-    }
-
-    .mobile-writing p{
-        color: rgb(78, 78, 78);
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 100;
-    }
-
-    .mobile-section{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        width: 280px;
-        gap: 30px;
-        font-family: "Josefin Sans", sans-serif;
-    }
-
-    .mobile-section h1{
-        font-weight: 100;
-    }
-
-    .mobile-gallery{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        gap: 20px;
-    }
-
-    .mobile-images{
-        position: relative;
-    }
-
-    .mobile-images img{
-        width: 280px;
-        height: auto;
-    }
-
-    .mobile-images p{
-        position: absolute;
-        bottom: 15px;
-        left: 15px;
-        background: none;
-        color: white;
-        font-size: 25px;
-        font-weight: 100;
-    }
-
-    .mobile-section button{
-        border-width: 1px;
-        padding-left: 25px;
-        padding-right: 25px;
-        padding-top: 7px;
-        padding-bottom: 7px;
-        font-weight: 600;
-    }
-
-    .mobile-footer{
-        background-color: black;
-        width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
+    header{
         padding-top: 50px;
         padding-bottom: 50px;
-        font-family: "Josefin Sans", sans-serif;
-        gap: 40px;
-    }
-
-    .mobile-footer img{
-        background: none;
-    }
-
-    .mobile-footer nav{
         display: flex;
-        flex-direction: column;
-        background: none;
-        gap: 30px;
-    }
-
-    .mobile-footer nav a{
-        background: none;
-        color: white;
-        text-decoration: none;
-        text-align: center;
-    }
-    .mobile-icons{
-        display: flex;
-        gap: 15px;
-        background: none;
-    }
-    .mobile-icons img{
-        width: auto;
-        height: auto;
-    }
-    .mobile-footer h6{
-        font-style: normal;
-        font-weight: 100;
-    }
-}
-
-@media screen and (width: 375px){
-    .desktop{
-        display: none;
-    }
-
-    .mobile{
-        display: flex;
-        align-items: center;
+        background-image: url(/images/image-hero.jpg);
+        background-repeat: no-repeat;
+        width: 100%;
+        height: fit-content;
         justify-content: center;
+        gap: 100px;
+    }
+
+    .left-head{
+        display: flex;
         flex-direction: column;
+        align-items: left;
+        background: none;
+        width: 600px;
         gap: 90px;
     }
 
-    .mobile-header{
-        background-image: url(/images/mobile-images/image-hero.jpg);
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        padding-top: 40px;
-        width: 100%;
-        height: 100vh;
-        gap: 150px;
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-
-    .mobile-top{
-        display: flex;
-        align-items: center;
-        justify-content: center;
+    .header-logo{
         background: none;
-        gap: 180px;
-    }
-
-    .mobile-top .loop{
-        width: 150px;
-    }
-
-    .mobile-top img{
-        background: none;
-    }
-
-    .mobile-header{
-        font-family: "Josefin Sans", sans-serif;
-        font-weight: 100;
-    }
-
-    .mobile-header p{
-        text-align: left;
-        background: none;
-        color: white;
-        font-size: 39px;
-        padding: 25px;
-        border: 2px solid white;
-    }
-
-    .mobile-main{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        width: 100%;
-        gap: 35px;
-    }
-
-    .mobile-main img{
-        width: 330px;
-        height: auto;
-    }
-
-    .mobile-writing{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        text-align: center;
-        width: 330px;
-        padding-left: 22px;
-        padding-right: 22px;
-        gap: 20px;
-        font-family: "Josefin Sans", sans-serif;
-    }
-
-    .mobile-writing h1{
-        color: rgb(78, 78, 78);
-        font-size: 30px;
-        font-style: normal;
-        font-weight: 100;
-    }
-
-    .mobile-writing p{
-        color: rgb(78, 78, 78);
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 100;
-    }
-
-    .mobile-section{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        width: 330px;
-        gap: 30px;
-        font-family: "Josefin Sans", sans-serif;
-    }
-
-    .mobile-section h1{
-        font-weight: 100;
-    }
-
-    .mobile-gallery{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        gap: 20px;
-    }
-
-    .mobile-images{
-        position: relative;
-    }
-
-    .mobile-images img{
-        width: 330px;
-        height: auto;
-    }
-
-    .mobile-images p{
-        position: absolute;
-        bottom: 15px;
-        left: 15px;
-        background: none;
-        color: white;
-        font-size: 25px;
-        font-weight: 100;
-    }
-
-    .mobile-section button{
-        border-width: 1px;
-        padding-left: 25px;
-        padding-right: 25px;
-        padding-top: 7px;
-        padding-bottom: 7px;
-        font-weight: 600;
-    }
-
-    .mobile-footer{
-        background-color: black;
-        width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        padding-top: 50px;
-        padding-bottom: 50px;
-        font-family: "Josefin Sans", sans-serif;
-        gap: 40px;
-    }
-
-    .mobile-footer img{
-        background: none;
-    }
-
-    .mobile-footer nav{
-        display: flex;
-        flex-direction: column;
-        background: none;
-        gap: 30px;
-    }
-
-    .mobile-footer nav a{
-        background: none;
-        color: white;
-        text-decoration: none;
-        text-align: center;
-    }
-    .mobile-icons{
-        display: flex;
-        gap: 15px;
-        background: none;
-    }
-    .mobile-icons img{
-        width: auto;
-        height: auto;
-    }
-    .mobile-footer h6{
-        font-style: normal;
-        font-weight: 100;
-    }
-}
-
-@media screen and (max-width: 375px){
-    .desktop{
-        display: none;
-    }
-
-    .mobile{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        gap: 90px;
-    }
-
-    .mobile-header{
-        background-image: url(/images/mobile-images/image-hero.jpg);
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        padding-top: 40px;
-        width: 100%;
-        height: 100vh;
-        gap: 150px;
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-
-    .mobile-top{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        background: none;
-        gap: 150px;
-    }
-
-    .mobile-top .loop{
-        width: 150px;
-    }
-
-    .mobile-top img{
-        background: none;
-    }
-
-    .mobile-header{
-        font-family: "Josefin Sans", sans-serif;
-        font-weight: 100;
-    }
-
-    .mobile-header p{
-        text-align: left;
-        background: none;
-        color: white;
-        font-size: 39px;
-        padding: 25px;
-        border: 2px solid white;
-    }
-
-    .mobile-main{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        width: 100%;
-        gap: 35px;
-    }
-
-    .mobile-main img{
         width: 300px;
-        height: auto;
     }
 
-    .mobile-writing{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        text-align: center;
-        width: 360px;
-        padding-left: 22px;
-        padding-right: 22px;
-        gap: 20px;
+    .header-p{
         font-family: "Josefin Sans", sans-serif;
+        font-size: 90px;
+        color: white;
+        background: none;
+        width:fit-content;
+        border: 2px solid white;
+        height: fit-content;
+        font-weight: 300;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
 
-    .mobile-writing h1{
-        color: rgb(78, 78, 78);
-        font-size: 32px;
-        font-style: normal;
-        font-weight: 100;
+    .header-nav{
+        display: flex;
+        background: none;
+        height: fit-content;
+        gap: 40px;
+        font-family: "Alata", sans-serif;
+        font-size: 25px;
     }
 
-    .mobile-writing p{
-        color: rgb(78, 78, 78);
-        font-size: 18px;
-        font-style: normal;
-        font-weight: 100;
+    .header-links{
+        
+        text-decoration: none;
+        color: white;
+        background: none;
     }
 
-    .mobile-section{
+    .header-links:hover{
+        text-decoration: underline;
+    }
+
+    main{
         display: flex;
         align-items: center;
-        justify-content: center;
         flex-direction: column;
-        width: 330px;
-        gap: 30px;
-        font-family: "Josefin Sans", sans-serif;
+        padding-left: 104px;
+        padding-right: 104px;
+        gap: 100px;
+        width: 100%;
     }
 
-    .mobile-section h1{
-        font-weight: 100;
-        font-size: 37px;
+    .main1{
+        position: relative;
+        display: flex;
+        align-items: end;
+        margin-right: 398px;
     }
 
-    .mobile-gallery{
+    .interactive{
+        height: 580px;
+        width: auto;
+    }
+
+    .main-writing{
         display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: end;
         flex-direction: column;
+        padding-left: 100px;
+        padding-top: 100px;
+        width: 600px;
+        height: fit-content;
+        position: absolute;
+        left: 680px;
         gap: 20px;
     }
 
-    .mobile-images{
+    .main-h1{
+        font-family: "Josefin Sans", sans-serif;
+        font-weight: 100;
+        font-size: 55px;
+    }
+
+    .main-p{
+        font-family: "Josefin Sans", sans-serif;
+        color: #676767;
+        font-size: 22px;
+    }
+
+    .section{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .top-section{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 650px;
+    }
+
+    .section-h1{
+        font-family: "Josefin Sans", sans-serif;
+        font-weight: 300;
+        font-size: 60px;
+        width: 500px;
+        border: 1px solid green;
+    }
+
+    .section-button{
+        color: black;
+        background-color: white;
+        width: 100px;
+        height: 40px;
+    }
+
+    .section-button:hover{
+        background-color: aliceblue;
+        cursor: pointer;
+    }
+
+    .section-button:active{
+        color: white;
+        background-color: black;
+    }
+
+    .pic-section{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 18px;
+    }
+
+    .container{
         position: relative;
     }
 
-    .mobile-images img{
-        width: 300px;
+    .container img{
         height: auto;
+        width: 300px;
     }
 
-    .mobile-images p{
+    .image-text{
+        font-family: "Josefin Sans", sans-serif;
+        font-weight: 300;
+        font-size: 22px;
+        height: 80px;
+        width: 145px;
+        padding-right: 30px;
         position: absolute;
-        bottom: 15px;
-        left: 15px;
-        background: none;
+        bottom: 20px;
+        left: 20px;
         color: white;
-        font-size: 25px;
-        font-weight: 100;
+        background: none;
     }
 
-    .mobile-section button{
-        border-width: 1px;
-        padding-left: 25px;
-        padding-right: 25px;
-        padding-top: 7px;
-        padding-bottom: 7px;
-        font-weight: 600;
-    }
-
-    .mobile-footer{
+    footer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
         background-color: black;
         width: 100%;
+        gap: 550px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .left-footer{
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        padding-top: 50px;
-        padding-bottom: 50px;
-        font-family: "Josefin Sans", sans-serif;
-        gap: 40px;
-    }
-
-    .mobile-footer img{
-        background: none;
-    }
-
-    .mobile-footer nav{
-        display: flex;
-        flex-direction: column;
-        background: none;
+        background-color: black;
         gap: 30px;
     }
 
-    .mobile-footer nav a{
+    .footer-logo{
         background: none;
+        width: 150px;
+        align-self: self-start;
+    }
+
+    .footer-nav{
+        display: flex;
+        background-color:  black;
+        gap: 30px;
+    }
+
+    .footer-links{
+        font-family: "Josefin Sans", sans-serif;
         color: white;
         text-decoration: none;
-        text-align: center;
+        background-color: black;
     }
-    .mobile-icons{
+
+    .right-footer{
         display: flex;
-        gap: 15px;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-color: black;
+        gap: 30px;
+    }
+
+    .footer-images{
+        background-color: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-self: self-end;
+        gap: 10px;
+    }
+
+    .footer-icons{
+        background: none;
+        width: 20px;
+    }
+
+    h6{
+        font-family: "Josefin Sans", sans-serif;
+        color: white;
+        background-color: black;
+        font-size: medium;
+    }
+
+    .mobile{
+        display: none;
+    }    
+}
+
+@media screen and (max-width:1280px){
+    .desktop{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        gap: 100px;
+        height: fit-content;
+    }
+
+    header{
+        padding-top: 50px;
+        padding-bottom: 50px;
+        display: flex;
+        background-image: url(/images/image-hero.jpg);
+        background-repeat: no-repeat;
+        width: 100%;
+        height: fit-content;
+        justify-content: center;
+        gap: 120px;
+    }
+
+    .left-head{
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        background: none;
+        width: 600px;
+        gap: 90px;
+    }
+
+    .header-logo{
+        background: none;
+        width: 300px;
+    }
+
+    .header-p{
+        font-family: "Josefin Sans", sans-serif;
+        font-size: 90px;
+        color: white;
+        background: none;
+        width: fit-content;
+        border: 2px solid white;
+        height: fit-content;
+        font-weight: 300;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .header-nav{
+        display: flex;
+        background: none;
+        height: fit-content;
+        gap: 30px;
+        font-family: "Alata", sans-serif;
+        font-size: 20px;
+    }
+
+    .header-links{
+        
+        text-decoration: none;
+        color: white;
         background: none;
     }
-    .mobile-icons img{
-        width: auto;
-        height: auto;
+
+    .header-links:hover{
+        text-decoration: underline;
     }
-    .mobile-footer h6{
-        font-style: normal;
+
+    main{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding-left: 104px;
+        padding-right: 104px;
+        gap: 100px;
+        width: 100%;
+    }
+
+    .main1{
+        position: relative;
+        display: flex;
+        align-items: end;
+        margin-right: 398px;
+    }
+
+    .interactive{
+        height: 400px;
+        width: auto;
+    }
+
+    .main-writing{
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        flex-direction: column;
+        padding-left: 90px;
+        padding-top: 90px;
+        width: 500px;
+        height: fit-content;
+        position: absolute;
+        left: 450px;
+        gap: 20px;
+    }
+
+    .main-h1{
+        font-family: "Josefin Sans", sans-serif;
+        font-weight: 200;
+        font-size: 50px;
+    }
+
+    .main-p{
+        font-family: "Josefin Sans", sans-serif;
+        color: #676767;
+        font-weight: 300;
+        font-size: 16px;
+    }
+
+    .section{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .top-section{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 400px;
+    }
+
+    .section-h1{
+        font-family: "Josefin Sans", sans-serif;
+        font-weight: 300;
+        font-size: 60px;
+        width: 500px;
+        border: 1px solid green;
+    }
+
+    .section-button{
+        color: black;
+        background-color: white;
+        width: 100px;
+        height: 40px;
+    }
+
+    .section-button:hover{
+        background-color: aliceblue;
+        cursor: pointer;
+    }
+
+    .section-button:active{
+        color: white;
+        background-color: black;
+    }
+
+    .pic-section{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 18px;
+    }
+
+    .container{
+        position: relative;
+    }
+
+    .container img{
+        height: auto;
+        width: 100%;
+    }
+
+    .image-text{
+        font-family: "Josefin Sans", sans-serif;
+        font-weight: 300;
+        font-size: 22px;
+        height: 80px;
+        width: 145px;
+        padding-right: 30px;
+        position: absolute;
+        bottom: 20px;
+        left: 20px;
+        color: white;
+        background: none;
+    }
+
+    footer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: black;
+        width: 1265px;
+        gap: 440px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .left-footer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-color: black;
+        gap: 30px;
+    }
+
+    .footer-logo{
+        background: none;
+        width: 150px;
+        align-self: self-start;
+    }
+
+    .footer-nav{
+        display: flex;
+        background-color:  black;
+        gap: 30px;
+    }
+
+    .footer-links{
+        font-family: "Josefin Sans", sans-serif;
+        color: white;
+        text-decoration: none;
+        background-color: black;
+    }
+
+    .right-footer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-color: black;
+        gap: 30px;
+    }
+
+    .footer-images{
+        background-color: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-self: self-end;
+        gap: 10px;
+    }
+
+    .footer-icons{
+        background: none;
+        width: 20px;
+    }
+
+    h6{
+        font-family: "Josefin Sans", sans-serif;
+        color: white;
+        background-color: black;
+        font-size: medium;
+    }
+
+    .mobile{
+        display: none;
+    }    
+}
+
+@media screen and (max-width:1024px) {
+    .desktop{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        gap: 100px;
+        height: fit-content;
+    }
+
+    header{
+        padding-top: 50px;
+        display: flex;
+        background-image: url(/images/image-hero.jpg);
+        width: 100%;
+        height: 100vh;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .left-head{
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        background: none;
+        width: 600px;
+        gap: 60px;
+    }
+
+    .header-logo{
+        background: none;
+        width: 180px;
+    }
+
+    .header-p{
+        font-family: "Josefin Sans", sans-serif;
+        font-size: 60px;
+        color: white;
+        background: none;
+        border: 2px solid white;
+        height: fit-content;
+        font-weight: 300;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .header-nav{
+        display: flex;
+        background: none;
+        height: fit-content;
+        gap: 20px;
+    }
+
+    .header-links{
+        font-family: "Alata", sans-serif;
+        text-decoration: none;
+        font-size: 15px;
+        color: white;
+        background: none;
+    }
+
+    .header-links:hover{
+        text-decoration: underline;
+    }
+
+    main{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding-left: 100px;
+        padding-right: 100px;
+        width: 100%;
+    }
+
+    .main1{
+        position: relative;
+        display: flex;
+        align-items: end;
+        margin-right: 398px;
+    }
+
+    .interactive{
+        height: 350px;
+        width: auto;
+    }
+
+    .main-writing{
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        flex-direction: column;
+        padding-left: 100px;
+        width: 470px;
+        height: 230px;
+        position: absolute;
+        left: 400px;
+        gap: 20px;
+    }
+
+    .main-h1{
+        font-family: "Josefin Sans", sans-serif;
         font-weight: 100;
+        font-size: 40px;
+    }
+
+    .main-p{
+        font-family: "Josefin Sans", sans-serif;
+        color: #676767;
+        font-size: 14px;
+    }
+
+    .section{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .top-section{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 480px;
+    }
+
+    .section-h1{
+        font-family: "Josefin Sans", sans-serif;
+        font-weight: 300;
+        font-size: 40px;
+        width: 350px;
+    }
+
+    .section-button{
+        color: black;
+        background-color: white;
+        width: 100px;
+        height: 40px;
+    }
+
+    .section-button:hover{
+        background-color: aliceblue;
+        cursor: pointer;
+    }
+
+    .section-button:active{
+        color: white;
+        background-color: black;
+    }
+
+    .pic-section{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 18px;
+    }
+
+    .container{
+        position: relative;
+    }
+
+    .container img{
+        height: auto;
+        width: 100%;
+    }
+
+    .image-text{
+        font-family: "Josefin Sans", sans-serif;
+        font-weight: 300;
+        font-size: 22px;
+        height: 80px;
+        width: 145px;
+        padding-right: 30px;
+        position: absolute;
+        bottom: 20px;
+        left: 20px;
+        color: white;
+        background: none;
+    }
+
+    footer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: black;
+        width: 100%;
+        gap: 250px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .left-footer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-color: black;
+        gap: 30px;
+    }
+
+    .footer-logo{
+        background: none;
+        width: 150px;
+        align-self: self-start;
+    }
+
+    .footer-nav{
+        display: flex;
+        background-color:  black;
+        gap: 30px;
+    }
+
+    .footer-links{
+        font-family: "Josefin Sans", sans-serif;
+        color: white;
+        text-decoration: none;
+        background-color: black;
+    }
+
+    .right-footer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-color: black;
+        gap: 30px;
+    }
+
+    .footer-images{
+        background-color: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-self: self-end;
+        gap: 10px;
+    }
+
+    .footer-icons{
+        background: none;
+        width: 20px;
+    }
+
+    h6{
+        font-family: "Josefin Sans", sans-serif;
+        color: white;
+        background-color: black;
+        font-size: medium;
+    }
+
+    .mobile{
+        display: none;
     }
 }
 
-@media screen and (width: 768px) {
+@media screen and (max-width: 768px) {
     .desktop{
         display: none;
     }
@@ -1053,525 +1268,580 @@ h6{
     }
 }
 
-@media screen and (width:1024px) {
+@media screen and (max-width: 600px){
     .desktop{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        width: 100%;
-        height: fit-content;
-    }
-
-    header{
-        padding-top: 50px;
-        display: flex;
-        background-image: url(/images/image-hero.jpg);
-        background-repeat: no-repeat;
-        width: 100%;
-        height: 100vh;
-        justify-content: center;
-        gap: 50px;
-    }
-
-    .left-head{
-        display: flex;
-        flex-direction: column;
-        align-items: left;
-        background: none;
-        width: 600px;
-        gap: 90px;
-    }
-
-    .header-logo{
-        background: none;
-        width: 200px;
-    }
-
-    .header-p{
-        font-family: "Josefin Sans", sans-serif;
-        font-size: 70px;
-        color: white;
-        background: none;
-        border: 2px solid white;
-        height: fit-content;
-        font-weight: 300;
-        padding-left: 40px;
-        padding-right: 40px;
-        padding-top: 40px;
-        padding-bottom: 40px;
-    }
-
-    .header-nav{
-        display: flex;
-        background: none;
-        height: fit-content;
-        gap: 20px;
-    }
-
-    .header-links{
-        font-family: "Alata", sans-serif;
-        text-decoration: none;
-        color: white;
-        background: none;
-    }
-
-    .header-links:hover{
-        text-decoration: underline;
-    }
-
-    main{
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        padding-left: 100px;
-        padding-right: 100px;
-        width: 100%;
-    }
-
-    .main1{
-        position: relative;
-        display: flex;
-        align-items: end;
-        margin-right: 398px;
-    }
-
-    .interactive{
-        height: 350px;
-        width: auto;
-    }
-
-    .main-writing{
-        display: flex;
-        align-items: center;
-        justify-content: end;
-        flex-direction: column;
-        padding-left: 100px;
-        width: 470px;
-        height: 230px;
-        position: absolute;
-        left: 400px;
-        gap: 20px;
-    }
-
-    .main-h1{
-        font-family: "Josefin Sans", sans-serif;
-        font-weight: 100;
-        font-size: 40px;
-    }
-
-    .main-p{
-        font-family: "Josefin Sans", sans-serif;
-        color: #676767;
-        font-size: 14px;
-    }
-
-    .section{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        gap: 50px;
-    }
-
-    .top-section{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 480px;
-    }
-
-    .section-h1{
-        font-family: "Josefin Sans", sans-serif;
-        font-weight: 300;
-        font-size: 40px;
-        width: 350px;
-    }
-
-    .section-button{
-        color: black;
-        background-color: white;
-        width: 100px;
-        height: 40px;
-    }
-
-    .section-button:hover{
-        background-color: aliceblue;
-        cursor: pointer;
-    }
-
-    .section-button:active{
-        color: white;
-        background-color: black;
-    }
-
-    .pic-section{
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        align-items: center;
-        justify-content: center;
-        flex-wrap: wrap;
-        gap: 18px;
-    }
-
-    .container{
-        position: relative;
-    }
-
-    .container img{
-        height: auto;
-        width: 100%;
-    }
-
-    .image-text{
-        font-family: "Josefin Sans", sans-serif;
-        font-weight: 300;
-        font-size: 22px;
-        height: 80px;
-        width: 145px;
-        padding-right: 30px;
-        position: absolute;
-        bottom: 20px;
-        left: 20px;
-        color: white;
-        background: none;
-    }
-
-    footer{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        background-color: black;
-        width: 100%;
-        gap: 250px;
-        padding-top: 30px;
-        padding-bottom: 30px;
-    }
-
-    .left-footer{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        background-color: black;
-        gap: 30px;
-    }
-
-    .footer-logo{
-        background: none;
-        width: 150px;
-        align-self: self-start;
-    }
-
-    .footer-nav{
-        display: flex;
-        background-color:  black;
-        gap: 30px;
-    }
-
-    .footer-links{
-        font-family: "Josefin Sans", sans-serif;
-        color: white;
-        text-decoration: none;
-        background-color: black;
-    }
-
-    .right-footer{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        background-color: black;
-        gap: 30px;
-    }
-
-    .footer-images{
-        background-color: black;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        align-self: self-end;
-        gap: 10px;
-    }
-
-    .footer-icons{
-        background: none;
-        width: 20px;
-    }
-
-    h6{
-        font-family: "Josefin Sans", sans-serif;
-        color: white;
-        background-color: black;
-        font-size: medium;
+        display: none;
     }
 
     .mobile{
-        display: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 90px;
     }
-}
 
-@media screen and (width:1440px){
-    .desktop{
+    .mobile-header{
+        background-image: url(/images/mobile-images/image-hero.jpg);
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding-top: 40px;
+        width: 107%;
+        height: 100vh;
+        gap: 150px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .mobile-top{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: none;
+        gap: 320px;
+    }
+
+    .mobile-top .loop{
+        width: 200px;
+    }
+
+    .mobile-top img{
+        background: none;
+    }
+
+    .mobile-header{
+        font-family: "Josefin Sans", sans-serif;
+        font-weight: 300;
+    }
+
+    .mobile-header p{
+        text-align: left;
+        background: none;
+        color: white;
+        font-size: 45px;
+        padding: 50px;
+        border: 2px solid white;
+    }
+
+    .mobile-main{
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: column;
         width: 100%;
-        height: fit-content;
+        gap: 35px;
     }
 
-    header{
+    .mobile-main img{
+        width: 400px;
+        height: auto;
+    }
+
+    .mobile-writing{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        width: 360px;
+        padding-left: 22px;
+        padding-right: 22px;
+        gap: 20px;
+        font-family: "Josefin Sans", sans-serif;
+    }
+
+    .mobile-writing h1{
+        color: rgb(78, 78, 78);
+        font-size: 38px;
+        font-style: normal;
+        font-weight: 200;
+    }
+
+    .mobile-writing p{
+        color: rgb(78, 78, 78);
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 200;
+    }
+
+    .mobile-section{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 330px;
+        gap: 30px;
+        font-family: "Josefin Sans", sans-serif;
+    }
+
+    .mobile-section h1{
+        font-weight: 200;
+        font-size: 40px;
+    }
+
+    .mobile-gallery{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .mobile-images{
+        position: relative;
+    }
+
+    .mobile-images img{
+        width: 400px;
+        height: auto;
+    }
+
+    .mobile-images p{
+        position: absolute;
+        bottom: 15px;
+        left: 15px;
+        background: none;
+        color: white;
+        font-size: 25px;
+        font-weight: 100;
+    }
+
+    .mobile-section button{
+        border-width: 1px;
+        padding-left: 28px;
+        padding-right: 28px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-weight: 600;
+    }
+
+    .mobile-footer{
+        background-color: black;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
         padding-top: 50px;
         padding-bottom: 50px;
-        display: flex;
-        background-image: url(/images/image-hero.jpg);
-        background-repeat: no-repeat;
-        width: 100%;
-        height: 100vh;
-        justify-content: center;
-        gap: 120px;
+        font-family: "Josefin Sans", sans-serif;
+        gap: 40px;
     }
 
-    .left-head{
-        display: flex;
-        flex-direction: column;
-        align-items: left;
-        background: none;
-        width: 600px;
-        gap: 90px;
-    }
-
-    .header-logo{
+    .mobile-footer img{
         background: none;
         width: 300px;
     }
 
-    .header-p{
-        font-family: "Josefin Sans", sans-serif;
-        font-size: 90px;
-        color: white;
+    .mobile-footer nav{
+        display: flex;
+        flex-direction: column;
         background: none;
-        width: fit-content;
-        border: 2px solid white;
-        height: fit-content;
-        font-weight: 300;
-        padding-left: 20px;
-        padding-right: 20px;
-        padding-top: 20px;
-        padding-bottom: 20px;
+        gap: 30px;
     }
 
-    .header-nav{
-        display: flex;
+    .mobile-footer nav a{
         background: none;
-        height: fit-content;
+        color: white;
+        text-decoration: none;
+        text-align: center;
+    }
+    .mobile-icons{
+        display: flex;
         gap: 40px;
-        font-family: "Alata", sans-serif;
-        font-size: 25px;
-    }
-
-    .header-links{
-        
-        text-decoration: none;
-        color: white;
         background: none;
     }
-
-    .header-links:hover{
-        text-decoration: underline;
-    }
-
-    main{
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        padding-left: 104px;
-        padding-right: 104px;
-        gap: 100px;
-        width: 100%;
-    }
-
-    .main1{
-        position: relative;
-        display: flex;
-        align-items: end;
-        margin-right: 398px;
-    }
-
-    .interactive{
-        height: 600px;
+    .mobile-icons img{
         width: auto;
-    }
-
-    .main-writing{
-        display: flex;
-        align-items: center;
-        justify-content: end;
-        flex-direction: column;
-        padding-left: 100px;
-        padding-top: 100px;
-        width: 600px;
-        height: fit-content;
-        position: absolute;
-        left: 680px;
-        gap: 20px;
-    }
-
-    .main-h1{
-        font-family: "Josefin Sans", sans-serif;
-        font-weight: 100;
-        font-size: 55px;
-    }
-
-    .main-p{
-        font-family: "Josefin Sans", sans-serif;
-        color: #676767;
-        font-size: 22px;
-    }
-
-    .section{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        gap: 50px;
-    }
-
-    .top-section{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 30px;
-    }
-
-    .section-h1{
-        font-family: "Josefin Sans", sans-serif;
-        font-weight: 300;
-        font-size: 60px;
-        width: 500px;
-        border: 1px solid green;
-    }
-
-    .section-button{
-        color: black;
-        background-color: white;
-        width: 100px;
-        height: 40px;
-    }
-
-    .section-button:hover{
-        background-color: aliceblue;
-        cursor: pointer;
-    }
-
-    .section-button:active{
-        color: white;
-        background-color: black;
-    }
-
-    .pic-section{
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        align-items: center;
-        justify-content: center;
-        flex-wrap: wrap;
-        gap: 18px;
-    }
-
-    .container{
-        position: relative;
-    }
-
-    .container img{
         height: auto;
-        width: 100%;
     }
-
-    .image-text{
-        font-family: "Josefin Sans", sans-serif;
-        font-weight: 300;
-        font-size: 22px;
-        height: 80px;
-        width: 145px;
-        padding-right: 30px;
-        position: absolute;
-        bottom: 20px;
-        left: 20px;
-        color: white;
-        background: none;
+    .mobile-footer h6{
+        font-style: normal;
+        font-weight: 100;
     }
+}
 
-    footer{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        background-color: black;
-        width: 1265px;
-        gap: 440px;
-        padding-top: 30px;
-        padding-bottom: 30px;
-    }
-
-    .left-footer{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        background-color: black;
-        gap: 30px;
-    }
-
-    .footer-logo{
-        background: none;
-        width: 150px;
-        align-self: self-start;
-    }
-
-    .footer-nav{
-        display: flex;
-        background-color:  black;
-        gap: 30px;
-    }
-
-    .footer-links{
-        font-family: "Josefin Sans", sans-serif;
-        color: white;
-        text-decoration: none;
-        background-color: black;
-    }
-
-    .right-footer{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        background-color: black;
-        gap: 30px;
-    }
-
-    .footer-images{
-        background-color: black;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        align-self: self-end;
-        gap: 10px;
-    }
-
-    .footer-icons{
-        background: none;
-        width: 20px;
-    }
-
-    h6{
-        font-family: "Josefin Sans", sans-serif;
-        color: white;
-        background-color: black;
-        font-size: medium;
+@media screen and (max-width: 480px){
+    .desktop{
+        display: none;
     }
 
     .mobile{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 90px;
+    }
+
+    .mobile-header{
+        background-image: url(/images/mobile-images/image-hero.jpg);
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding-top: 40px;
+        width: 100%;
+        height: 100vh;
+        gap: 150px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .mobile-top{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: none;
+        gap: 180px;
+    }
+
+    .mobile-top .loop{
+        width: 150px;
+    }
+
+    .mobile-top img{
+        background: none;
+    }
+
+    .mobile-header{
+        font-family: "Josefin Sans", sans-serif;
+        font-weight: 100;
+    }
+
+    .mobile-header p{
+        text-align: left;
+        background: none;
+        color: white;
+        font-size: 39px;
+        padding: 25px;
+        border: 2px solid white;
+    }
+
+    .mobile-main{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        gap: 35px;
+    }
+
+    .mobile-main img{
+        width: 330px;
+        height: auto;
+    }
+
+    .mobile-writing{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        width: 330px;
+        padding-left: 22px;
+        padding-right: 22px;
+        gap: 20px;
+        font-family: "Josefin Sans", sans-serif;
+    }
+
+    .mobile-writing h1{
+        color: rgb(78, 78, 78);
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 100;
+    }
+
+    .mobile-writing p{
+        color: rgb(78, 78, 78);
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 100;
+    }
+
+    .mobile-section{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 330px;
+        gap: 30px;
+        font-family: "Josefin Sans", sans-serif;
+    }
+
+    .mobile-section h1{
+        font-weight: 100;
+    }
+
+    .mobile-gallery{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .mobile-images{
+        position: relative;
+    }
+
+    .mobile-images img{
+        width: 330px;
+        height: auto;
+    }
+
+    .mobile-images p{
+        position: absolute;
+        bottom: 15px;
+        left: 15px;
+        background: none;
+        color: white;
+        font-size: 25px;
+        font-weight: 100;
+    }
+
+    .mobile-section button{
+        border-width: 1px;
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-top: 7px;
+        padding-bottom: 7px;
+        font-weight: 600;
+    }
+
+    .mobile-footer{
+        background-color: black;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        font-family: "Josefin Sans", sans-serif;
+        gap: 40px;
+    }
+
+    .mobile-footer img{
+        background: none;
+    }
+
+    .mobile-footer nav{
+        display: flex;
+        flex-direction: column;
+        background: none;
+        gap: 30px;
+    }
+
+    .mobile-footer nav a{
+        background: none;
+        color: white;
+        text-decoration: none;
+        text-align: center;
+    }
+    .mobile-icons{
+        display: flex;
+        gap: 15px;
+        background: none;
+    }
+    .mobile-icons img{
+        width: auto;
+        height: auto;
+    }
+    .mobile-footer h6{
+        font-style: normal;
+        font-weight: 100;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .desktop{
         display: none;
-    }    
+    }
+
+    .mobile{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 90px;
+    }
+
+    .mobile-header{
+        background-image: url(/images/mobile-images/image-hero.jpg);
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding-top: 40px;
+        width: 100%;
+        height: 100vh;
+        gap: 150px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .mobile-top{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: none;
+        gap: 130px;
+    }
+
+    .mobile-top .loop{
+        width: 150px;
+    }
+
+    .mobile-top img{
+        background: none;
+    }
+
+    .mobile-header{
+        font-family: "Josefin Sans", sans-serif;
+        font-weight: 100;
+    }
+
+    .mobile-header p{
+        text-align: left;
+        background: none;
+        color: white;
+        font-size: 35px;
+        padding: 25px;
+        border: 2px solid white;
+    }
+
+    .mobile-main{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        gap: 35px;
+    }
+
+    .mobile-main img{
+        width: 280px;
+        height: auto;
+    }
+
+    .mobile-writing{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        width: 280px;
+        padding-left: 15px;
+        padding-right: 15px;
+        gap: 20px;
+        font-family: "Josefin Sans", sans-serif;
+    }
+
+    .mobile-writing h1{
+        color: rgb(78, 78, 78);
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 100;
+    }
+
+    .mobile-writing p{
+        color: rgb(78, 78, 78);
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 100;
+    }
+
+    .mobile-section{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 280px;
+        gap: 30px;
+        font-family: "Josefin Sans", sans-serif;
+    }
+
+    .mobile-section h1{
+        font-weight: 100;
+    }
+
+    .mobile-gallery{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .mobile-images{
+        position: relative;
+    }
+
+    .mobile-images img{
+        width: 280px;
+        height: auto;
+    }
+
+    .mobile-images p{
+        position: absolute;
+        bottom: 15px;
+        left: 15px;
+        background: none;
+        color: white;
+        font-size: 25px;
+        font-weight: 100;
+    }
+
+    .mobile-section button{
+        border-width: 1px;
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-top: 7px;
+        padding-bottom: 7px;
+        font-weight: 600;
+    }
+
+    .mobile-footer{
+        background-color: black;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        font-family: "Josefin Sans", sans-serif;
+        gap: 40px;
+    }
+
+    .mobile-footer img{
+        background: none;
+    }
+
+    .mobile-footer nav{
+        display: flex;
+        flex-direction: column;
+        background: none;
+        gap: 30px;
+    }
+
+    .mobile-footer nav a{
+        background: none;
+        color: white;
+        text-decoration: none;
+        text-align: center;
+    }
+    .mobile-icons{
+        display: flex;
+        gap: 15px;
+        background: none;
+    }
+    .mobile-icons img{
+        width: auto;
+        height: auto;
+    }
+    .mobile-footer h6{
+        font-style: normal;
+        font-weight: 100;
+    }
 }
