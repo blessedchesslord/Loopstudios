@@ -1559,14 +1559,14 @@ h6{
         color: rgb(78, 78, 78);
         font-size: 30px;
         font-style: normal;
-        font-weight: 100;
+        font-weight: 300;
     }
 
     .mobile-writing p{
         color: rgb(78, 78, 78);
         font-size: 16px;
         font-style: normal;
-        font-weight: 100;
+        font-weight: 300;
     }
 
     .mobile-section{
@@ -1580,7 +1580,7 @@ h6{
     }
 
     .mobile-section h1{
-        font-weight: 100;
+        font-weight: 300;
     }
 
     .mobile-gallery{
